@@ -42,20 +42,6 @@ angular.module('app.routes', [])
     
       
         
-    .state('menu.pKNS', {
-      url: '/page4',
-      views: {
-        'side-menu21': {
-          templateUrl: 'templates/pKNS.html',
-          controller: 'pKNSCtrl'
-        }
-      }
-    })
-        
-      
-    
-      
-        
     .state('usahawan', {
       url: '/page5',
       templateUrl: 'templates/usahawan.html',
@@ -76,12 +62,92 @@ angular.module('app.routes', [])
     
       
         
-    .state('menu.perkhidmatan', {
-      url: '/page7',
+    .state('perkhidmatan', {
+      url: '/page9',
+      templateUrl: 'templates/perkhidmatan.html',
+      controller: 'perkhidmatanCtrl'
+    })
+        
+      
+    
+      
+        
+    .state('menu.beritaTerkini', {
+      url: '/page10',
       views: {
         'side-menu21': {
-          templateUrl: 'templates/perkhidmatan.html',
-          controller: 'perkhidmatanCtrl'
+          templateUrl: 'templates/beritaTerkini.html',
+          controller: 'beritaTerkiniCtrl'
+        }
+      }
+    })
+        
+      
+    
+      
+        
+    .state('menu.lamanWeb', {
+      url: '/page11',
+      views: {
+        'side-menu21': {
+          templateUrl: 'templates/lamanWeb.html',
+          controller: 'lamanWebCtrl'
+        }
+      }
+    })
+        
+      
+    
+      
+        
+    .state('menu.lainLain', {
+      url: '/page12',
+      views: {
+        'side-menu21': {
+          templateUrl: 'templates/lainLain.html',
+          controller: 'lainLainCtrl'
+        }
+      }
+    })
+        
+      
+    
+      
+        
+    .state('menu.petaLokasi', {
+      url: '/page13',
+      views: {
+        'side-menu21': {
+          templateUrl: 'templates/petaLokasi.html',
+          controller: 'petaLokasiCtrl'
+        }
+      }
+    })
+        
+      
+    
+      
+        
+    .state('menu.sosialMedia', {
+      url: '/page14',
+      views: {
+        'side-menu21': {
+          templateUrl: 'templates/sosialMedia.html',
+          controller: 'sosialMediaCtrl'
+        }
+      }
+    })
+        
+      
+    
+      
+        
+    .state('menu.hubungiKami', {
+      url: '/page15',
+      views: {
+        'side-menu21': {
+          templateUrl: 'templates/hubungiKami.html',
+          controller: 'hubungiKamiCtrl'
         }
       }
     })

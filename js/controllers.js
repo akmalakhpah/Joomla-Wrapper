@@ -8,10 +8,6 @@ angular.module('app.controllers', [])
 
 })
    
-.controller('pKNSCtrl', function($scope) {
-
-})
-   
 .controller('usahawanCtrl', function($scope) {
 
 })
@@ -21,6 +17,30 @@ angular.module('app.controllers', [])
 })
    
 .controller('perkhidmatanCtrl', function($scope) {
+
+})
+   
+.controller('beritaTerkiniCtrl', function($scope) {
+
+})
+   
+.controller('lamanWebCtrl', function($scope) {
+
+})
+   
+.controller('lainLainCtrl', function($scope) {
+
+})
+   
+.controller('petaLokasiCtrl', function($scope) {
+
+})
+   
+.controller('sosialMediaCtrl', function($scope) {
+
+})
+   
+.controller('hubungiKamiCtrl', function($scope) {
 
 })
  
